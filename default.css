@@ -1,0 +1,14 @@
+.header {
+	width: 782px; height: 150px;
+	/* DEFAULTS TO SUNNY */
+	background: url(images/header-sunny.png) no-repeat center center black;
+}
+.header-fair { background: url(images/header-fair.png) no-repeat center center black; }
+.header-rain { background: url(images/header-fair.png) no-repeat center center black; }
+.header-snow { background: url(images/header-fair.png) no-repeat center center black; }
+.header-partly-cloudy, .header-cloudy, .header-mostly-cloudy { 		
+	background:url(images/header-fair.png) no-repeat center center black;
+}
+.header-thundershowers, .header-scattered-thunderstorms, .header-isolated-thunderstorms {
+	background: url(images/header-fair.png) no-repeat center center black;
+}
